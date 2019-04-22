@@ -1,4 +1,33 @@
+*, *:before, *:after{
+  box-sizing: border-box;
+}
 body {
   background-color: #dadada;
   font-size: 10px;
+}
+.container {
+  margin:auto;
+  width:90%;
+
+}
+h1.title{
+  text-align: center;
+  font-size:2em;
+}
+div{
+  width:100%;
+}
+@media screen and (min-width: 575px){
+  div{
+    margin:1%;
+    width:48%;
+  }
+
+}
+div h1{
+  font-size: 3em;
+}
+
+img{
+  width:100%;
 }
